@@ -1,20 +1,11 @@
 /* Здесь хранятся стили для странички index */
 
-.header__nav-list-item {
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-.header__nav-list-item-link {
-    color: #333;
-    text-decoration: none;
-}
-
-.header__nav-list-item-link:hover {
-    color: #008752;
-}
-
-.header__nav-list-item-link:active {
-    color: #33333399;
-}
+/* .banner__title {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -99999;
+} */
