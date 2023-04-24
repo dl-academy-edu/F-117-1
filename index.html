@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- dlac@demy -->
+    <!-- dl-ac@demy -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChemDry</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <a href="/">
-            <img src="#" alt="Logotype of ChemDry">
+    <header class="header container">
+        <a class="header__logo" href="/">
+            <img class="header__logo-img" src="./images/logo.png" alt="Logotype of ChemDry" width="142" height="64">
         </a>
-        <nav>
-            <ul>
-                <li><a href="#">Catalog</a></li>
-                <li><a href="#">Servises</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About us</a></li>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-item"><a class="header__nav-list-item-link" href="#">Catalog</a></li>
+                <li class="header__nav-list-item"><a class="header__nav-list-item-link" href="#">Servises</a></li>
+                <li class="header__nav-list-item"><a class="header__nav-list-item-link" href="#">Blog</a></li>
+                <li class="header__nav-list-item"><a class="header__nav-list-item-link" href="#">About us</a></li>
             </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="tel:7194319698">719-431-9698</a>
+        <ul class="header__additional-list">
+            <li class="header__additional-list-item">
+                <a class="header__additional-list-item-link" href="tel:7194319698">719-431-9698</a>
             </li>
-            <li>
-                <a href="#">Contact Us</a>
+            <li class="header__additional-list-item">
+                <a class="header__additional-list-item-link" href="#">Contact Us</a>
             </li>
         </ul>
     </header>
+    <main>
+        <section class="banner">
+            <h1 class="banner__title">The world's leading company</h1>
+            <button class="banner__btn">Get a free estimate</button>
+        </section>
+        <section class="services">
+            <h2 class="services__title">Our most popular services</h2>
+            <ul class="services__list">
+                <li class="services__list-item">
+                    <img src="./imagess/services-one.jpg" alt="carpet cleaning" class="services__img">
+                    <h3 class="services__list-item-title">Carpet cleaning</h3>
+                    <a href="#" class="services__link">Learn more</a>
+                </li>
+                <li class="services__list-item">
+                    <img src="./imagess/services-two.jpg" alt="tile & grout cleaning" class="services__img">
+                    <h3 class="services__list-item-title">Tile & Grout Cleaning</h3>
+                    <a href="#" class="services__link">Learn more</a>
+                </li>
+                <li class="services__list-item">
+                    <img src="./imagess/services-three.jpg" alt="pet stain removal" class="services__img">
+                    <h3 class="services__list-item-title">Pet Stain Removal</h3>
+                    <a href="#" class="services__link">Learn more</a>
+                </li>
+                <li class="services__list-item">
+                    <img src="./imagess/services-four.jpg" alt="commercial cleaning" class="services__img">
+                    <h3 class="services__list-item-title">Commercial Cleaning</h3>
+                    <a href="#" class="services__link">Learn more</a>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,61 @@
+/* Здесь хранятся общие стили для всех страниц проекта */
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 33px auto;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-list-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.header__additional-list {
+    display: flex;
+}
+
+.header__additional-list-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.header__nav-list-item {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.header__nav-list-item-link {
+    color: #333;
+}
+
+.header__nav-list-item-link:hover {
+    color: #008752;
+}
+
+.header__nav-list-item-link:active {
+    color: #33333399;
+}
